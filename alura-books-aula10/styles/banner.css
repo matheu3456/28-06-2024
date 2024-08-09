@@ -34,15 +34,21 @@
     background-position: 1em;
 }
 
-@media screen and (min-width:1024px) {
-     .banner__titulo{
-         color:rgb(181, 129, 230);
-         -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: pink;
-     }
-         .banner{
-            background: orange;
-         }
+.banner__titulo {
+    color: rgb(181, 129, 230);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(37, 134, 245);
+color:rgb(37, 171, 224);
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        background: orange;
+        -webkit-text-stroke-color:rgb(245, 252, 248);
+        -webkit-text-stroke-width: 1px;
     }
-     
-     
+}
